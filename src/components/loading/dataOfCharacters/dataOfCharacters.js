@@ -26,11 +26,11 @@ export const namesOfEnemy = {
 };
 
 export const healthImages = {
-  100: 'health_100%',
-  75: 'health_75%',
-  50: 'health_50%',
-  25: 'health_25%',
-  0: 'health_0%',
+  100: 'health_100',
+  75: 'health_75',
+  50: 'health_50',
+  25: 'health_25',
+  0: 'health_0',
 };
 
 export const paths = {

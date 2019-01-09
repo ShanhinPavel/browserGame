@@ -17,6 +17,8 @@ const homePage = {
     // header
     const headerElement = createElement('header', { class: 'home__header' });
     headerElement.style.background = 'url("../src/screens/home/images/backgrounds/header_background2.png")';
+    headerElement.style.backgroundRepeat = 'repeat-x';
+    headerElement.style.backgroundPosition = '50% 50%';
     // title of game
     const titleOfGame = createElement('h1', { class: 'home__title' });
     const navPanel = createElement('nav', { class: 'home__nav-panel' });
